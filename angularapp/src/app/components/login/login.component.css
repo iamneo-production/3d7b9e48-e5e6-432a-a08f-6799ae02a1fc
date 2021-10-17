@@ -1,0 +1,55 @@
+.table
+{
+        width: 500px;   
+        margin: auto;
+        margin: 30 0 0 40;  
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+        padding-left: 100px;  
+        background-color: yellowgreen;
+        border-radius: 15px ;  
+        text-align: center;
+
+}
+
+.title
+{
+    text-align:center;
+    padding:50px 0 20px;
+    margin: 0;
+padding: 0;
+color: black;
+text-transform: uppercase;
+font-size: 36px;
+}
+.header {
+    overflow: hidden;
+    background-color:yellowgreen;
+  padding: 20px 10px;
+  color:black;
+
+
+  }
+  .heading1
+{
+    
+    padding:50px 0 20px;
+    margin: 0;
+padding: 0;
+color: black;
+text-transform: uppercase;
+font-size: 36px;
+}
+b1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
