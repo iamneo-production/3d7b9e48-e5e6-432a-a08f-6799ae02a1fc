@@ -1,12 +1,40 @@
-.header0 {
+html {
+  height:100%;
+}
+.table
+{
+        width: 500px;   
+        margin: auto;
+        margin: 30 0 0 350;  
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+        padding-left: 100px;  
+        background-color:lightblue;
+        border-radius: 15px ;  
+        text-align: center;
+
+}
+
+.title
+{
+    text-align:center;
+    padding:50px 0 20px;
+    margin: 0;
+padding: 0;
+color: black;
+text-transform: uppercase;
+font-size: 36px;
+}
+.header {
     overflow: hidden;
-    background-color:yellowgreen;
+    background-color:transparent white;
   padding: 20px 10px;
   color:black;
 
 
   }
-  .heading0
+  .heading1
 {
     
     padding:50px 0 20px;
@@ -16,17 +44,76 @@ color: black;
 text-transform: uppercase;
 font-size: 36px;
 }
-.table0
-{
-        width: 500px;   
-        margin: auto;
-        margin: 30 0 0 40;  
-        padding-top: 20px;
-        padding-right: 50px;
-        padding-bottom: 70px;
-        padding-left: 100px;  
-        background-color: yellowgreen;
-        border-radius: 15px ;  
-        text-align: center;
+b1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-size: cover;
+    font-family: sans-serif;
+}
 
+body {
+  margin:0;
+}
+b1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+.heading2
+{
+  
+  padding:50px 0 20px;
+  margin: 0;
+padding: 0;
+color: black;
+text-transform: uppercase;
+font-size: 20px;
 }
