@@ -1,14 +1,26 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
 <div class="header">
     <h1 class="heading1">TRUELY COURSE.....</h1>
-    <nav>
-        <a routerLink="/login"><b>LOG OUT</b></a>
-    </nav>
+    <a routerLink="/login">
+        <div class="col-md-12 bg-light text-right">
+        <button type="button" class="btn btn-primary">LOG OUT</button>
+        </div>
+        </a>
 </div>
+
 <br>
 <br>
+<div class="text-center">
+    <input type="text" name="search" id="password" placeholder="search">
+    <button type="button" class="btn btn-primary">Search</button>
+    <br>
+    <br>
+    <br>
 <a class="button1" id="grid1" routerLink="../resource1"><b><h1 class="heading2">ANGULAR JS<br>2020<br>FRONT END TECHNOLOGY</h1></b></a>
 
 <a class="button1" id="grid2" routerLink="../resource2"><b><h1 class="heading2">REACT<br>2021<br>FRONT END TECHNOLOGY</h1></b></a>
@@ -21,3 +33,4 @@
  <a class="button1" id="grid5" routerLink="../resource5"><b><h1 class="heading2">MONGO DB<br>2019<br>BACK END DATABASE</h1></b></a>
 
     <a class="button1" id="grid6" routerLink="../resource6"><b><h1 class="heading2">SPRING BOOT<br>2020<br>BACK END TECHNOLOGY</h1></b></a>
+    </div>
